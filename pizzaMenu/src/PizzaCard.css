@@ -1,0 +1,38 @@
+.image {
+    height: 150px;
+    width: 150px;
+}
+
+.pizzaCard1 {
+    box-sizing: border-box;
+    width: calc(100% - (3% + 30px));
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px 1px rgba(59, 58, 59, 0.5);
+    margin: 15px;
+    padding: 5px;
+    /* border: 1px solid #c7c3c3 */
+}
+
+.image-card {
+    height: auto;
+    width: auto;
+}
+
+.details-card {
+    text-align: center;
+    padding: 5px;
+    height: auto;
+}
+
+.items {
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.pizza-cardButton{
+    padding: 5px;
+    height: auto;
+}
